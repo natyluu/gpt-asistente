@@ -1,7 +1,6 @@
 "use client"
 
 export default function PricingSection() {
-  // Lista de features, idénticas para ambos planes
   const features = [
     "Análisis técnico, fundamental e institucional",
     "Consultas ilimitadas",
@@ -13,7 +12,6 @@ export default function PricingSection() {
     "Estrategias adaptadas a tu perfil",
   ];
 
-  // Definición de los planes
   const plans = [
     {
       name: "Prueba Gratis",
@@ -98,12 +96,15 @@ export default function PricingSection() {
                 ))}
               </ul>
 
-              <button
-                className={`w-full py-3 px-6 rounded-lg font-medium transition-colors ${plan.buttonStyle}`}
+              <a
+                href="https://chatgpt.com/g/g-Apjq2CgWQ-gpt-forex-pro"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`block text-center w-full py-3 px-6 rounded-lg font-medium transition-colors ${plan.buttonStyle}`}
                 style={
                   plan.popular
-                    ? { backgroundColor: '#8b3bc0', borderColor: '#8b3bc0' }
-                    : undefined
+                    ? { backgroundColor: '#8b3bc0', borderColor: '#8b3bc0', textDecoration: 'none' }
+                    : { textDecoration: 'none' }
                 }
                 onMouseEnter={plan.popular ? (e) => {
                   e.currentTarget.style.backgroundColor = '#331659'
@@ -113,7 +114,7 @@ export default function PricingSection() {
                 } : undefined}
               >
                 {plan.buttonText}
-              </button>
+              </a>
             </div>
           ))}
         </div>
