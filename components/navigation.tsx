@@ -35,35 +35,23 @@ export default function Navigation() {
             >
               Cursos
             </Link>
-            <Link
-              href="#"
-              className="text-sm font-medium transition-colors hover:text-[#8b3bc0] focus:text-[#8b3bc0]"
-            >
+            <Link href="#" className="text-sm font-medium transition-colors hover:text-[#8b3bc0] focus:text-[#8b3bc0]">
               Blog
             </Link>
-            <Link
-              href="#"
-              className="text-sm font-medium transition-colors hover:text-[#8b3bc0] focus:text-[#8b3bc0]"
-            >
+            <Link href="#" className="text-sm font-medium transition-colors hover:text-[#8b3bc0] focus:text-[#8b3bc0]">
               Promts
             </Link>
-            <Link
-              href="#"
-              className="text-sm font-medium transition-colors hover:text-[#8b3bc0] focus:text-[#8b3bc0]"
-            >
+            <Link href="#" className="text-sm font-medium transition-colors hover:text-[#8b3bc0] focus:text-[#8b3bc0]">
               GPT Forex Pro
             </Link>
-            <Link
-              href="#"
-              className="text-sm font-medium transition-colors hover:text-[#8b3bc0] focus:text-[#8b3bc0]"
-            >
+            <Link href="#" className="text-sm font-medium transition-colors hover:text-[#8b3bc0] focus:text-[#8b3bc0]">
               Empresa
             </Link>
           </nav>
         </div>
         <Button
           variant="outline"
-          className="border-[#8b3bc0] text-white hover:text-[#8b3bc0] hover:border-[#8b3bc0] transition-colors font-semibold px-5 py-2"
+          className="border-[#8b3bc0] text-white hover:text-[#8b3bc0] hover:border-[#8b3bc0] transition-colors font-semibold px-5 py-2 bg-transparent"
         >
           Iniciar Sesión
         </Button>
@@ -71,3 +59,5 @@ export default function Navigation() {
     </header>
   )
 }
+
+export { Navigation }
