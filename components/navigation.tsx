@@ -48,7 +48,9 @@ export default function Navigation() {
               Prompts
             </Link>
             <Link
-              href="#"
+              href="https://chatgpt.com/g/g-Apjq2CgWQ-gpt-forex-pro"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-sm font-mansfield-medium transition-colors hover:text-xentris-purple focus:text-xentris-purple"
             >
               GPT Forex Pro

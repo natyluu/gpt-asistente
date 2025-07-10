@@ -1,6 +1,6 @@
 import type { Config } from "tailwindcss"
 
-const config = {
+const config: Config = {
   darkMode: ["class"],
   content: [
     "./pages/**/*.{ts,tsx}",
@@ -20,6 +20,14 @@ const config = {
     },
     extend: {
       colors: {
+        // XENTRIS Brand Colors
+        "xentris-dark": "#0D0D0D",
+        "xentris-purple-dark": "#1B123F",
+        "xentris-purple-medium": "#331659",
+        "xentris-purple": "#8B3BC0",
+        "xentris-purple-light": "#A06BE7",
+
+        // Shadcn UI Colors
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -53,20 +61,13 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        // XENTRIS Brand Colors
-        "xentris-dark": "#0D0D0D",
-        "xentris-purple-dark": "#1B123F",
-        "xentris-purple-medium": "#331659",
-        "xentris-purple": "#8B3BC0",
-        "xentris-purple-light": "#A06BE7",
       },
       fontFamily: {
         mansfield: ["Mansfield", "Inter", "sans-serif"],
         inter: ["Inter", "sans-serif"],
       },
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "xentris-gradient": "linear-gradient(135deg, #1B123F 0%, #331659 50%, #8B3BC0 100%)",
+        "xentris-gradient": "linear-gradient(135deg, #8B3BC0 0%, #A06BE7 100%)",
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -83,11 +84,11 @@ const config = {
           to: { height: "0" },
         },
         "fade-in-up": {
-          "0%": {
+          from: {
             opacity: "0",
             transform: "translateY(30px)",
           },
-          "100%": {
+          to: {
             opacity: "1",
             transform: "translateY(0)",
           },
@@ -104,7 +105,7 @@ const config = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-        "fade-in-up": "fade-in-up 0.6s ease-out",
+        "fade-in-up": "fade-in-up 0.8s ease-out forwards",
         "pulse-glow": "pulse-glow 2s ease-in-out infinite",
       },
     },

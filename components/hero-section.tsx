@@ -1,6 +1,7 @@
 "use client"
 
 import SplineComponent from "./spline-component"
+import Link from "next/link"
 
 export default function HeroSection() {
   return (
@@ -32,9 +33,14 @@ export default function HeroSection() {
           <p className="text-xentris-purple-light font-mansfield-medium">sin emoción y con precisión.</p>
         </div>
         <div className="pt-6">
-          <button className="btn-xentris-primary glow-xentris">
+          <Link
+            href="https://chatgpt.com/g/g-Apjq2CgWQ-gpt-forex-pro"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-xentris-primary glow-xentris"
+          >
             <span className="font-mansfield-bold">¡Probar ahora gratis!</span>
-          </button>
+          </Link>
         </div>
       </div>
       <div className="md:w-1/2 mt-12 md:mt-0 relative flex items-center justify-center">

@@ -1,75 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://xentris.com</loc>
-    <lastmod>2024-01-01</lastmod>
+    <loc>https://trading.xentris.tech/</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://xentris.com/recursos</loc>
-    <lastmod>2024-01-01</lastmod>
+    <loc>https://trading.xentris.tech/recursos</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://xentris.com/recursos/gpt-forex-pro-avanzado</loc>
-    <lastmod>2024-01-01</lastmod>
+    <loc>https://trading.xentris.tech/recursos/gpt-forex-pro-avanzado</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://xentris.com/recursos/gpt-forex-pro-avanzado/modulo-0</loc>
-    <lastmod>2024-01-01</lastmod>
+    <loc>https://trading.xentris.tech/recursos/gpt-forex-pro-avanzado/modulo-0</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xentris.com/recursos/gpt-forex-pro-avanzado/modulo-1</loc>
-    <lastmod>2024-01-01</lastmod>
+    <loc>https://trading.xentris.tech/recursos/gpt-forex-pro-avanzado/modulo-1</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xentris.com/recursos/gpt-forex-pro-avanzado/modulo-2</loc>
-    <lastmod>2024-01-01</lastmod>
+    <loc>https://trading.xentris.tech/recursos/gpt-forex-pro-avanzado/modulo-2</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xentris.com/recursos/gpt-forex-pro-avanzado/modulo-2/estrategias-tecnicas-simulacion</loc>
-    <lastmod>2024-01-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://xentris.com/recursos/gpt-forex-pro-avanzado/modulo-3</loc>
-    <lastmod>2024-01-01</lastmod>
+    <loc>https://trading.xentris.tech/recursos/gpt-forex-pro-avanzado/modulo-3</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xentris.com/recursos/gpt-forex-pro-avanzado/modulo-4</loc>
-    <lastmod>2024-01-01</lastmod>
+    <loc>https://trading.xentris.tech/recursos/gpt-forex-pro-avanzado/modulo-4</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xentris.com/recursos/gpt-forex-pro-avanzado/modulo-5</loc>
-    <lastmod>2024-01-01</lastmod>
+    <loc>https://trading.xentris.tech/recursos/gpt-forex-pro-avanzado/modulo-5</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xentris.com/recursos/estrategias-tecnicas-simulacion-setups</loc>
-    <lastmod>2024-01-01</lastmod>
+    <loc>https://trading.xentris.tech/recursos/estrategias-tecnicas-simulacion-setups</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://xentris.com/estrategias-tecnicas</loc>
-    <lastmod>2024-01-01</lastmod>
+    <loc>https://trading.xentris.tech/estrategias-tecnicas</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
 </urlset>
