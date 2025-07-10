@@ -1,13 +1,19 @@
 User-agent: *
 Allow: /
 
-# Disallow admin or private areas (if any)
+# Sitemap
+Sitemap: https://xentris.com/sitemap.xml
+
+# Disallow admin areas
 Disallow: /admin/
 Disallow: /api/
 Disallow: /_next/
+Disallow: /private/
 
-# Allow all crawlers to access sitemap
-Sitemap: https://xentris.com/sitemap.xml
+# Allow important pages
+Allow: /recursos/
+Allow: /estrategias-tecnicas/
+Allow: /blog/
 
-# Crawl-delay for respectful crawling
+# Crawl delay
 Crawl-delay: 1

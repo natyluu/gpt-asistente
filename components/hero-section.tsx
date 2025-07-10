@@ -1,38 +1,56 @@
-const HeroSection = () => {
+"use client"
+
+import SplineComponent from "./spline-component"
+
+export default function HeroSection() {
   return (
-    <section className="bg-gray-50 py-20">
-      <div className="container mx-auto px-4">
-        <div className="lg:flex items-center justify-between">
-          <div className="lg:w-1/2 mb-10 lg:mb-0">
-            <h1 className="text-4xl font-bold text-gray-900 mb-6">
-              Impulsa tu negocio con nuestra plataforma innovadora
-            </h1>
-            <p className="text-lg text-gray-700 mb-8">
-              Ofrecemos soluciones personalizadas para ayudarte a crecer y alcanzar tus objetivos. Descubre cómo podemos
-              transformar tu empresa.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 mt-8">
-              <a
-                href="#pricing"
-                className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-[#8b3bc0] to-[#a06be7] text-white font-bold rounded-lg shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-105 focus:outline-none focus:ring-4 focus:ring-[#8b3bc0]/50"
-              >
-                ¡Probar ahora gratis!
-              </a>
-              <a
-                href="/recursos"
-                className="inline-flex items-center justify-center px-8 py-4 bg-transparent border-2 border-[#8b3bc0] text-[#8b3bc0] font-bold rounded-lg transition-all duration-300 hover:bg-[#8b3bc0] hover:text-white focus:outline-none focus:ring-4 focus:ring-[#8b3bc0]/50"
-              >
-                Ver Recursos
-              </a>
-            </div>
-          </div>
-          <div className="lg:w-1/2">
-            <img src="https://via.placeholder.com/600x400" alt="Hero Image" className="rounded-lg shadow-lg" />
-          </div>
+    <main
+      className="container mx-auto px-4 py-16 md:py-24 pb-8 md:pb-12 flex flex-col md:flex-row items-center"
+      style={{ background: "#0D0D0D" }}
+    >
+      <div className="md:w-1/2 space-y-6">
+        <h1 className="text-5xl md:text-6xl lg:text-7xl font-mansfield-black leading-tight">
+          Asistente
+          <br />
+          <span className="text-xentris-purple font-mansfield-black">Inteligente</span>
+          <br />
+          de Análisis <span className="text-xentris-gradient font-mansfield-black">Forex</span>
+        </h1>
+        <p className="text-xentris-purple-light max-w-md font-mansfield-medium text-lg">
+          Más que tecnología, soluciones que impulsan tu crecimiento.
+        </p>
+        <div className="space-y-4 pt-4">
+          <p className="text-lg text-white font-inter">
+            Nuestra tecnología analiza el mercado en segundos,
+            <br />
+            se adapta a tu estilo de trading
+            <span className="text-xentris-purple-light font-mansfield-medium">
+              {" "}
+              y entrega estrategias listas para ejecutar,
+            </span>
+          </p>
+          <p className="text-xentris-purple-light font-mansfield-medium">sin emoción y con precisión.</p>
+        </div>
+        <div className="pt-6">
+          <button className="btn-xentris-primary glow-xentris">
+            <span className="font-mansfield-bold">¡Probar ahora gratis!</span>
+          </button>
         </div>
       </div>
-    </section>
+      <div className="md:w-1/2 mt-12 md:mt-0 relative flex items-center justify-center">
+        <div
+          className="relative z-10 w-full h-[400px] md:h-[500px] rounded-lg overflow-hidden"
+          style={{ background: "#1b123F" }}
+        >
+          <SplineComponent />
+        </div>
+        <div
+          className="absolute inset-0 rounded-full blur-3xl -z-10"
+          style={{
+            background: "radial-gradient(circle, #8b3bc0 0%, #331659 60%, transparent 100%)",
+          }}
+        ></div>
+      </div>
+    </main>
   )
 }
-
-export default HeroSection

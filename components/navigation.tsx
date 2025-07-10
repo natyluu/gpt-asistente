@@ -21,7 +21,7 @@ export default function Navigation() {
           <Link href="/" className="flex items-center">
             <Image
               src="/images/xentris-trading.png"
-              alt="Xentris Logo"
+              alt="XENTRIS Logo"
               width={56}
               height={56}
               className="h-14 w-auto"
@@ -31,27 +31,39 @@ export default function Navigation() {
           <nav className="hidden md:flex items-center gap-6">
             <Link
               href="/recursos"
-              className="text-sm font-medium transition-colors hover:text-[#8b3bc0] focus:text-[#8b3bc0]"
+              className="text-sm font-mansfield-medium transition-colors hover:text-xentris-purple focus:text-xentris-purple"
             >
               Cursos
             </Link>
-            <Link href="#" className="text-sm font-medium transition-colors hover:text-[#8b3bc0] focus:text-[#8b3bc0]">
+            <Link
+              href="#"
+              className="text-sm font-mansfield-medium transition-colors hover:text-xentris-purple focus:text-xentris-purple"
+            >
               Blog
             </Link>
-            <Link href="#" className="text-sm font-medium transition-colors hover:text-[#8b3bc0] focus:text-[#8b3bc0]">
-              Promts
+            <Link
+              href="#"
+              className="text-sm font-mansfield-medium transition-colors hover:text-xentris-purple focus:text-xentris-purple"
+            >
+              Prompts
             </Link>
-            <Link href="#" className="text-sm font-medium transition-colors hover:text-[#8b3bc0] focus:text-[#8b3bc0]">
+            <Link
+              href="#"
+              className="text-sm font-mansfield-medium transition-colors hover:text-xentris-purple focus:text-xentris-purple"
+            >
               GPT Forex Pro
             </Link>
-            <Link href="#" className="text-sm font-medium transition-colors hover:text-[#8b3bc0] focus:text-[#8b3bc0]">
+            <Link
+              href="#"
+              className="text-sm font-mansfield-medium transition-colors hover:text-xentris-purple focus:text-xentris-purple"
+            >
               Empresa
             </Link>
           </nav>
         </div>
         <Button
           variant="outline"
-          className="border-[#8b3bc0] text-white hover:text-[#8b3bc0] hover:border-[#8b3bc0] transition-colors font-semibold px-5 py-2 bg-transparent"
+          className="border-xentris-purple text-white hover:text-xentris-purple hover:border-xentris-purple transition-colors font-mansfield-bold px-5 py-2 bg-transparent"
         >
           Iniciar Sesión
         </Button>
@@ -59,5 +71,3 @@ export default function Navigation() {
     </header>
   )
 }
-
-export { Navigation }
